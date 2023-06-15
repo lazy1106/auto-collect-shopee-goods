@@ -1,7 +1,6 @@
 let data =[];
-let allpages = document.querySelector(
-    "#main > div > div.dYFPlI > div > div > div.ZgwlcK > div > div.shopee-sort-bar > div.shopee-mini-page-controller > div > span.shopee-mini-page-controller__total"
-).textContent;
+let allpages = document.querySelector("#main > div > div.dYFPlI > div > div > div.sdzgsX > div.shopee-search-item-result > div.shopee-sort-bar > div.shopee-mini-page-controller > div > span.shopee-mini-page-controller__total").textContent;
+
 let pages = 1;
 while(pages<=allpages)
 {
